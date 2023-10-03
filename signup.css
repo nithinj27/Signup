@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.first,
+.last{
+   margin-top: 10px;
+   width: 300x;
+   height: 40px;
+   font-weight: bold;
+   border-color: rgb(185, 181, 181);
+   border-radius: 10px;
+   text-align: center;
+   margin-bottom: 20px;
+   border: none;
+   color: white;
+   font-weight: bold;
+   background-color: rgba(0,0,0,0.5);
+}
+.mail{
+    width: 375px;
+    height: 40px;
+    border: none;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border-color: gray;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.signup{
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    font-family:arial;
+    background-color: black;
+    border-radius: 10px;
+    transition: width 2s;
+    cursor: pointer;
+}
+.signup:hover{
+    width:400px;
+}
+.signup:active{
+    color: white;
+    background-color: rgba(155, 149, 149, 0.1);
+}
+.button,
+.detail{
+    text-align: center;
+}
+body{
+background-image: url("street2.jpg");
+width: 100%;
+background-size: cover;
+}
+.glass-container{
+background: rgba(14, 13, 13, 0.1);
+backdrop-filter: blur(5px);
+padding: 10px;
+height: 350px;
+border-radius: 30px;
+width: 450px;
+margin: 190px auto;
+box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
